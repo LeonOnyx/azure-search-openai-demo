@@ -153,13 +153,13 @@
       "value": "${USE_GPT4V=false}"
     },
     "useSpeechInputBrowser": {
-      "value": "${USE_SPEECH_INPUT_BROWSER=false}"
+      "value": "${USE_SPEECH_INPUT_BROWSER=true}"
     },
     "useSpeechOutputBrowser": {
       "value": "${USE_SPEECH_OUTPUT_BROWSER=false}"
     },
     "useSpeechOutputAzure": {
-      "value": "${USE_SPEECH_OUTPUT_AZURE=false}"
+      "value": "${USE_SPEECH_OUTPUT_AZURE=true}"
     },
     "speechServiceName": {
       "value": "${AZURE_SPEECH_SERVICE}"
