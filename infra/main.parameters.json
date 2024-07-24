@@ -150,7 +150,7 @@
       "value": "${USE_VECTORS=true}"
     },
     "useGPT4V": {
-      "value": "${USE_GPT4V=false}"
+      "value": "${USE_GPT4V=true}"
     },
     "useSpeechInputBrowser": {
       "value": "${USE_SPEECH_INPUT_BROWSER=true}"
@@ -234,7 +234,7 @@
       "value": "${AZURE_VM_OS_OFFER=WindowsServer}"
     },
     "useIntegratedVectorization": {
-      "value": "${USE_FEATURE_INT_VECTORIZATION}"
+      "value": "${USE_FEATURE_INT_VECTORIZATION=false}"
     },
     "useUserUpload": {
       "value": "${USE_USER_UPLOAD}"
