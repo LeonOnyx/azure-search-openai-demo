@@ -48,7 +48,7 @@ const Chat = () => {
     const [shouldStream, setShouldStream] = useState<boolean>(true);
     const [useSemanticCaptions, setUseSemanticCaptions] = useState<boolean>(false);
     const [excludeCategory, setExcludeCategory] = useState<string>("");
-    const [useSuggestFollowupQuestions, setUseSuggestFollowupQuestions] = useState<boolean>(false);
+    const [useSuggestFollowupQuestions, setUseSuggestFollowupQuestions] = useState<boolean>(true);
     const [vectorFieldList, setVectorFieldList] = useState<VectorFieldOptions[]>([VectorFieldOptions.Embedding]);
     const [useOidSecurityFilter, setUseOidSecurityFilter] = useState<boolean>(false);
     const [useGroupsSecurityFilter, setUseGroupsSecurityFilter] = useState<boolean>(false);
@@ -74,9 +74,9 @@ const Chat = () => {
     const [showSemanticRankerOption, setShowSemanticRankerOption] = useState<boolean>(false);
     const [showVectorOption, setShowVectorOption] = useState<boolean>(false);
     const [showUserUpload, setShowUserUpload] = useState<boolean>(false);
-    const [showSpeechInput, setShowSpeechInput] = useState<boolean>(false);
+    const [showSpeechInput, setShowSpeechInput] = useState<boolean>(true);
     const [showSpeechOutputBrowser, setShowSpeechOutputBrowser] = useState<boolean>(false);
-    const [showSpeechOutputAzure, setShowSpeechOutputAzure] = useState<boolean>(false);
+    const [showSpeechOutputAzure, setShowSpeechOutputAzure] = useState<boolean>(true);
 
     const getConfig = async () => {
         configApi().then(config => {
