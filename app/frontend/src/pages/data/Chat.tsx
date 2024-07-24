@@ -349,7 +349,6 @@ const Chat = () => {
                 <div className={styles.chatContainer}>
                     {!lastQuestionRef.current ? (
                         <div className={styles.chatEmptyState}>
-                            <img src="https://onyxdatacouk-my.sharepoint.com/:i:/g/personal/leon_onyxdata_co_uk/ERXrqOB1dtlEuAxff8I_KioBf8cKu62QbqKt5_mx00Tv0g?e=ZpBHoI" alt="Holograms" width="500"><br></br></img>
                             <SparkleFilled fontSize={"120px"} primaryFill={"rgba(31, 39, 59, 1)"} aria-hidden="true" aria-label="Chat logo" />
                             <h1 className={styles.chatEmptyStateTitle}>Chat with your data</h1>
                             <h2 className={styles.chatEmptyStateSubtitle}>Ask anything or try an example</h2>
